@@ -1,0 +1,21 @@
+  <% @order.line_items.each do |item|%>
+    <hr>
+    <%= item.inspect %>
+    <br/>
+    <%= item.product.inspect%>
+  
+      <br/>
+      <%= item.product.name%>
+      <br/>
+      <%= item.product.description %>
+      <br />
+      <%= item.product.image%>
+ 
+
+  
+  <% end %>
+
+        <br/>
+      <%= item.inspect %>
+      <%= item.product.inspect%>
+      <hr/>
